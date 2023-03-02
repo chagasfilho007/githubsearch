@@ -1,6 +1,7 @@
 {
   "name": "github-search",
   "version": "0.1.0",
+  "homepage": "https://chagasfilho007.github.io/githubsearch",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
