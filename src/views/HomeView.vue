@@ -1,7 +1,7 @@
 <template>
-  <b-container>
-    <b-img center fluid height="300" width="300" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Github logo" class="mb-5"></b-img>
-    <b-form class="text-center">
+  <b-container >
+    <b-img center fluid height="250" width="250" :src="require('../assets/github_logo.png')" alt="Github logo" class="mb-5"></b-img>
+    <b-form class="text-center" @submit.prevent="onSubmit">
         <b-input-group
           size="lg"
           class="mb-3">
